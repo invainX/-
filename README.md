@@ -1,6 +1,6 @@
 # -徽章
-![]https://img.shields.io/badge/{language}-{python}-{yellowgreen}.svg
-![]https://img.shields.io/badge/{build}-{passed}-{yellowgreen}.svg
+![](https://img.shields.io/badge/{language}-{python}-{yellowgreen}.svg)
+![](https://img.shields.io/badge/{build}-{passed}-{yellowgreen}.svg)
 
 # -运行环境
 - 操作系统：Windows
