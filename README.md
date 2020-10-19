@@ -4,7 +4,7 @@
 
 # -运行环境
 - 操作系统：Windows
-- python版本：3.8
+- python版本：3.8以上
 - 依赖参照requirementx.txt
 
 # -编译方法
