@@ -204,7 +204,7 @@ def game_loop1():
     # 载入外部事先生成的9个小图像块
     Pics = []
     for i in range(9):
-        filename = r"D:\software_practice\无框字符\\test(16)" + str(i) + ".jpg"
+        filename = "D:\software_practice\无框字符\\test(16)" + str(i) + ".jpg"
         Pics.append(PhotoImage(file=filename))
 
     def swap(i, j, r, c):
