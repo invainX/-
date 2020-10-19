@@ -33,7 +33,6 @@ gameDisplay = pygame.display.set_mode((display_width, display_height))
 pygame.display.set_caption('A bit Racey')
 clock = pygame.time.Clock()
 
-carImg = pygame.image.load('D:\software_practice\get\question(5)0.jpg')
 
 
 
@@ -109,7 +108,7 @@ def game_intro():
         clock.tick(15)
 
 def record():
-    root = Tk('D:\pythonProject\deng')
+    root = Tk('D:\puzzlegame')
     root.title("puzzlegame")
     WIDTH = 450
     HEIGHT = 450
@@ -153,9 +152,9 @@ def game_loop1():
             print('不合法的行列切割参数！')
 
     # 导入图片
-    src = r'D:\software_practice\无框字符\\test(16).jpg'
+    src = r'D:\puzzlegame\无框字符\\test(16).jpg'
     # src="C：\woman.png"
-    outfile = r'D:\software_practice\无框字符\\test(16).jpg'
+    outfile = r'D:\puzzlegame\无框字符\\test(16).jpg'
     img = Image.open(src)
     # 让导入的图片像素都变为400*400
     (x, y) = img.size  # read image size
@@ -198,13 +197,13 @@ def game_loop1():
     board = [[0, 1, 2],
              [3, 4, 5],
              [6, 7, 8]]
-    root = Tk('D:\pythonProject\deng')
+    root = Tk('D:\puzzlegame')
     root.title("puzzlegame")
 
     # 载入外部事先生成的9个小图像块
     Pics = []
     for i in range(9):
-        filename = "D:\software_practice\无框字符\\test(16)" + str(i) + ".jpg"
+        filename = r"D:\puzzlegame\无框字符\\test(16)" + str(i) + ".jpg"
         Pics.append(PhotoImage(file=filename))
 
     def swap(i, j, r, c):
@@ -343,7 +342,7 @@ def game_loop1():
         drawBoard(cv)
         wid = int(gameRect.width)
 
-    path = "D:\software_practice\无框字符\\test(16).jpg"
+    path = "D:\puzzlegame\无框字符\\test(16).jpg"
     image1 = Image.open(path)  # 通过Image=photo设置要展示的图片
     photo1: PhotoImage = ImageTk.PhotoImage(image1)  # 创建tkinter兼容的图片
     cv = Canvas(root, bg='green', width=WIDTH, height=HEIGHT)
