@@ -1,4 +1,4 @@
-import pygame
+
 import time
 import random
 from PIL import Image
